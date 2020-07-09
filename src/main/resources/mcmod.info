@@ -1,0 +1,15 @@
+[
+  {
+    "modid" : "hurtanimationremover-port",
+    "name" : "HurtAnimationRemover",
+    "mcversion" : "{$mcversion}",
+
+    "description" : "Disables the screen shake from being hurt",
+
+    "authorList": [
+      "boomboompower"
+    ],
+
+    "url" : "https://mods.boomy.wtf"
+  }
+]
