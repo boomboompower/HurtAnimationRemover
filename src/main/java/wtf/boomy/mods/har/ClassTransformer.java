@@ -24,7 +24,7 @@ public class ClassTransformer implements IClassTransformer {
                 
                 // Basically we are telling the method to return as soon as its called
                 // ignoring all the actual code after the method.
-                if (methodName.equals("hurtCameraEffect")) {
+                if (methodName.equals("hurtCameraEffect") || methodName.equals("func_78482_e")) {
                     System.out.println("Patching " + methodName);
                     
                     method.instructions.insertBefore(method.instructions.getFirst(), new InsnNode(Opcodes.RETURN));
