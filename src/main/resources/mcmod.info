@@ -1,6 +1,6 @@
 [
   {
-    "modid" : "hurtanimationremover-port",
+    "modid" : "har",
     "name" : "HurtAnimationRemover",
     "mcversion" : "{$mcversion}",
 
